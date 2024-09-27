@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://ruguoaaa.github.io/xirang/xirang3/sitemap.xml
