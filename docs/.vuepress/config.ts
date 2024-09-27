@@ -3,7 +3,7 @@ import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
-  base: "/xirang3/",
+  base: "/gushi/",
 
   locales: {
     /* "/": {
@@ -15,7 +15,7 @@ export default defineUserConfig({
     "/": {
       lang: "zh-CN",
       title: "息壤",
-      description: "中国古代文化的文档整理系统",
+      description: "大A知识收集整理",
     },
   },
 

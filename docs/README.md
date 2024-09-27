@@ -7,11 +7,11 @@ heroText: 大A知识汇编
 tagline: 大A知识汇编
 actions:
     - text: 开始
-      link: https://ruguoaaa.github.io/xirang/诗藏/
+      link: https://ruguoaaa.github.io/gushi/
       type: primary
 
     - text: 在GitHub上看源码
-      link: https://github.com/ruguoaaa/xirang
+      link: https://github.com/ruguoaaa/gushi
 
 features:
   - icon: repo

@@ -3,11 +3,11 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://ruguoaaa.github.io/xirang",
+  hostname: "https://ruguoaaa.github.io/gushi",
 
   author: {
     name: "Paladin",
-    url: "https://ruguoaaa.github.io/xirang",
+    url: "https://ruguoaaa.github.io/gushi",
   },
 
   iconAssets: "iconfont",
@@ -49,7 +49,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "息壤 -- 中国古文化整理平台",
+      footer: "息壤 -- 大A知识整理",
 
       displayFooter: true,
 
