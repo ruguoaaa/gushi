@@ -63,7 +63,7 @@ export default hopeTheme({
   encrypt: {
     config: {
       //加密日志目录
-      "/日志/": ["cdj0822", "longway01","logger1011"],
+      "/log/": ["cdj0822", "longway01","logger1011"],
       //"/demo/encrypt.html": ["1234"],
       //"/zh/demo/encrypt.html": ["1234"],
     },
