@@ -55,16 +55,16 @@ export default hopeTheme({
 
       // page meta
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
+        //editLink: "在 GitHub 上编辑此页",
       },
     },
   },
 
   encrypt: {
     config: {
-      // 加密日志目录
+      //加密日志目录
       "/日志/": ["cdj0822", "longway01","logger1011"],
-      "/demo/encrypt.html": ["1234"],
+      //"/demo/encrypt.html": ["1234"],
       //"/zh/demo/encrypt.html": ["1234"],
     },
   },
