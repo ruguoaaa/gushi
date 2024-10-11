@@ -1,6 +1,6 @@
 ---
 title: 个人日志
-index: false
+index: true
 icon: folder
 order: 4
 category:

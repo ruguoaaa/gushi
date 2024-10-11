@@ -1,6 +1,6 @@
 ---
 title: 大A知识
-index: false
+index: true
 icon: folder
 category:
   - 大A知识

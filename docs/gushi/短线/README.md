@@ -1,6 +1,6 @@
 ---
 title: 短线
-index: false
+index: true
 icon: folder
 order: 1
 category:

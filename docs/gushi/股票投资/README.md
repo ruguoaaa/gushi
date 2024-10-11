@@ -1,6 +1,6 @@
 ---
 title: 雪球 股票投资
-index: false
+index: true
 icon: folder
 order: 2
 category:

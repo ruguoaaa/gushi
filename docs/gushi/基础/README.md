@@ -1,6 +1,6 @@
 ---
 title: 股票软件 基础知识
-index: false
+index: true
 icon: folder
 order: 3
 category:
