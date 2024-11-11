@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/",  
-  { text: "大A知识", icon: "overflow", link: "/gushi/" },
+  { text: "大A知识", icon: "book", link: "/gushi/" },
 
   /*
   {
@@ -27,7 +27,7 @@ export const zhNavbar = navbar([
   */
   {
     text: "赞助",
-    icon: "flower",
+    icon: "circle-dollar-to-slot",
     link: "/donate",
   },
 ]);

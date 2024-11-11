@@ -1,7 +1,7 @@
 ---
 title: K线图基础知识
 index: true
-icon: editor
+icon: file
 order: 8
 category:
   - 基础

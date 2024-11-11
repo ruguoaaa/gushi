@@ -1,7 +1,7 @@
 ---
 title: 个人日志
-index: true
-icon: folder
+index: false
+icon: book
 order: 4
 category:
   - 原创

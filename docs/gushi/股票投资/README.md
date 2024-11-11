@@ -1,7 +1,7 @@
 ---
 title: 雪球 股票投资
-index: true
-icon: folder
+index: false
+icon: book
 order: 2
 category:
   - 雪球

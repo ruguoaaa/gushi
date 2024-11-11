@@ -10,7 +10,7 @@ export default hopeTheme({
     url: "https://ruguoaaa.github.io/gushi",
   },
 
-  iconAssets: "iconfont",
+  iconAssets: "fontawesome-with-brands",//iconfont
 
   logo: "/logo.svg",
 
@@ -18,7 +18,7 @@ export default hopeTheme({
 
   fullscreen: true,
 
-  docsDir: "docs",
+  docsDir: "src",
 
   locales: {
     /*
@@ -63,43 +63,59 @@ export default hopeTheme({
   encrypt: {
     config: {
       //加密日志目录
-      "/log/": ["cdj0822", "longway01","logger1011"],
+      "/gushi/log/": ["cdj0822", "longway01","logger1011"],
       //"/demo/encrypt.html": ["1234"],
       //"/zh/demo/encrypt.html": ["1234"],
     },
   },
 
   plugins: {
+	/*
     comment: {
       provider: "Waline",
       serverURL: "https://xirangw.vercel.app/",
       pageview: false,
+    },*/
+	comment: {
+      provider: "Giscus",
+      repo: "ruguoaaa/gisdus_repo",
+      repoId: "R_kgDONNbgrg",
+      category: "Announcements",
+      categoryId: "DIC_kwDONNbgrs4CkKJL",
     },
 
-    // all features are enabled for demo, only preserve features you need here
+    components: {
+      components: ["Badge", "VPCard"],
+    },
+
+    // These features are enabled for demo, only preserve features you need here
+    markdownImage: {
+      figure: true,
+      lazyload: true,
+      size: true,
+    },
+
+    // markdownMath: {
+    //   // install katex before enabling it
+    //   type: "katex",
+    //   // or install mathjax-full before enabling it
+    //   type: "mathjax",
+    // },
+
+    // This features is enabled for demo, only preserve if you need it
+    markdownTab: true,
+
+
+    // These features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
       attrs: true,
-      chart: true,
-      codetabs: true,
+      component: true,
       demo: true,
-      echarts: true,
-      figure: true,
-      flowchart: true,
-      gfm: true,
-      imgLazyload: true,
-      imgMark: true,
-      imgSize: true,
       include: true,
-      katex: true,
       mark: true,
-      mermaid: true,
-      playground: {
-        presets: ["ts", "vue"],
-      },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
+      plantuml: true,
+      spoiler: true,
       stylize: [
         {
           matcher: "Recommended",
@@ -115,10 +131,35 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
+      tasklist: true,
       vPre: true,
-      vuePlayground: true,
-      footnote: true,
+
+      // Install chart.js before enabling it
+      // chart: true,
+
+      // insert component easily
+
+      // Install echarts before enabling it
+      // echarts: true,
+
+      // Install flowchart.ts before enabling it
+      // flowchart: true,
+
+      // gfm requires mathjax-full to provide tex support
+      // gfm: true,
+
+      // Install mermaid before enabling it
+      // mermaid: true,
+
+      // playground: {
+      //   presets: ["ts", "vue"],
+      // },
+
+      // Install @vue/repl before enabling it
+      // vuePlayground: true,
+
+      // Install sandpack-vue3 before enabling it
+      // sandpack: true,
     },
 
     // uncomment these if you want a pwa

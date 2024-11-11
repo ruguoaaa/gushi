@@ -1,7 +1,7 @@
 ---
 title: K线形态详解 东江炒家整理
 index: true
-icon: editor
+icon: file
 order: 7
 category:
   - 基础

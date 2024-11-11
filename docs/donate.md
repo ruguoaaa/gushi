@@ -1,6 +1,6 @@
 ---
 title: 赞助
-icon: flower
+icon: circle-dollar-to-slot
 
 sidebar: false
 

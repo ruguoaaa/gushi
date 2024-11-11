@@ -1,7 +1,7 @@
 ---
 title: 短线
-index: true
-icon: folder
+index: false
+icon: book
 order: 1
 category:
   - 短线

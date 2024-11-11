@@ -14,7 +14,7 @@ actions:
       link: https://github.com/ruguoaaa/gushi
 
 features:
-  - icon: repo
+  - icon: lightbulb
     title: 股市
     details: 收集，整理大A相关的人和故事；复盘自己的心得体会。
     link: /gushi/
@@ -42,7 +42,7 @@ footer: 使用<a href="https://theme-hope.vuejs.press/" target="_blank">VuePress
 
 * 不管是牛市还是熊市，都要牢记自己是金融消费者的身份。
 
-* ::: tip
+::: tip
 买上升通道多头排列的个股，错误的机会只有一次，那就是买在顶部，其余皆是腰部或山脚，成功率99%；  
 
 买下降通道空头排列个股，正确的机会只有一次，那就是买在底部，其余皆是腰部或阶段小山顶，相反错误率99%。  

@@ -1,7 +1,7 @@
 ---
 title: 股票软件 基础知识
-index: true
-icon: folder
+index: false
+icon: book
 order: 3
 category:
   - 整理
