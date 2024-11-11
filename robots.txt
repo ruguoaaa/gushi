@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://ruguoaaa.github.io/gushi/sitemap.xml
+Sitemap: https://ruguoaaa.github.io/gushi/gushi/sitemap.xml
