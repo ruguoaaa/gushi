@@ -1,6 +1,6 @@
 ---
 title: 书籍
-index: true
+index: false
 icon: book
 order: 5
 category:

@@ -1,6 +1,6 @@
 ---
 title: 从小散到顶级游资的49堂课
-index: true
+index: false
 icon: book
 order: 1
 category:

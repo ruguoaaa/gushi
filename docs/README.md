@@ -19,6 +19,11 @@ features:
     details: 收集，整理大A相关的人和故事；复盘自己的心得体会。
     link: /gushi/
 
+  - icon: lightbulb
+    title: 方法论
+    details: 收集，整理日常书籍；写写自己的读后感。
+    link: /方法论/
+
 copyright: false
 footer: 使用<a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a>主题, Copyright © 2023-present Paladin
 ---

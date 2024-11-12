@@ -1,9 +1,9 @@
 ---
-title: 方法论
+title: 大A知识
 index: true
 icon: book
 category:
-  - 方法论
+  - 大A知识
 ---
 
-<AutoCatalog  />
+<Catalog/>

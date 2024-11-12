@@ -1,9 +1,9 @@
 ---
-title: 大A知识
-index: true
+title: 方法论
+index: false
 icon: folder
 category:
-  - 大A知识
+  - 方法论
 ---
 
-<AutoCatalog  />
+<Catalog  />
