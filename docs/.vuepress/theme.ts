@@ -70,13 +70,13 @@ export default hopeTheme({
   },
 
   plugins: {
-	/*
+  /*
     comment: {
       provider: "Waline",
       serverURL: "https://xirangw.vercel.app/",
       pageview: false,
     },*/
-	comment: {
+  comment: {
       provider: "Giscus",
       repo: "ruguoaaa/gisdus_repo",
       repoId: "R_kgDONNbgrg",
@@ -87,6 +87,8 @@ export default hopeTheme({
     components: {
       components: ["Badge", "VPCard"],
     },
+
+    blog: true,
 
     // These features are enabled for demo, only preserve features you need here
     markdownImage: {
@@ -104,8 +106,12 @@ export default hopeTheme({
 
     // This features is enabled for demo, only preserve if you need it
     markdownTab: true,
-
-
+/*
+    searchPro:{
+      searchDelay: 800,
+      suggestDelay: 300,
+    },
+*/
     // These features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
