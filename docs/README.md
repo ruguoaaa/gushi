@@ -24,6 +24,11 @@ features:
     details: 收集，整理日常书籍；写写自己的读后感。
     link: /方法论/
 
+  - icon: lightbulb
+    title: 鲁迅文集
+    details: 读一读鲁迅的文章，看看被他的镖枪所刺戮的旧中国世态百像，或许也是我们今天的借鉴。
+    link: /鲁迅文集/
+
 copyright: false
 footer: 使用<a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a>主题, Copyright © 2023-present Paladin
 ---
